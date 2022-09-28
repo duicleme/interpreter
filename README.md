@@ -2,7 +2,7 @@
 
 $> make
 
-$> ./a.out
+$> ./app.out
 
 
 This Project    
