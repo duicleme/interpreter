@@ -9,7 +9,7 @@ static auto indent(int)->void;
 
 auto printSyntaxTree(Program * program)->void 
 {
-	for (auto& node: program->function)
+	for (auto& node: program->functions)
 		node->print(0);
 }
 

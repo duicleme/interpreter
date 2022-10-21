@@ -51,7 +51,7 @@ auto parse( vector<Token> tokens)->Program*
 		{
 			case Kind::Function:
 			{
-				result->function.push_back(parseFunction());
+				result->functions.push_back(parseFunction());
 				break;
 			}
 			default:
